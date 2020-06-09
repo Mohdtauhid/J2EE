@@ -27,7 +27,7 @@ id++;                                             //id=67;       //  else id=2;
 break;
 }
 }
-Cookie c1 = new Cookie("COUNT", Integer.toString(id));
+Cookie c1 = new Cookie("COUNT", Integer.toString(id));  
 c1.setMaxAge(60*60*24*365);  // 1 year life cycle
 res.addCookie(c1);
   
